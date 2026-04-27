@@ -1,0 +1,30 @@
+local vortex_heart_S = {
+    "                SSSSSSSSSSSSSS             SSSSSSSSSSSSSS                ",
+    "            SSSSSSSSSSSSSSSSSSSS       SSSSSSSSSSSSSSSSSSSS              ",
+    "          SSSSSSSSSSSSSSSSSSSSSSSS   SSSSSSSSSSSSSSSSSSSSSSSS            ",
+    "         SSSSSSSSSSSSSSSSSSSSSSSSSS SSSSSSSSSSSSSSSSSSSSSSSSSS           ",
+    "        SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS          ",
+    "        SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS          ",
+    "        SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS          ",
+    "        SSSSSSSSSSSS                               SSSSSSSSSSSS          ",
+    "         SSSSSSSSSSSS      [  I LOVE YOU  ]       SSSSSSSSSSSS          ",
+    "          SSSSSSSSSSSS                           SSSSSSSSSSSS           ",
+    "           SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS            ",
+    "            SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS             ",
+    "              SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS               ",
+    "                SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS                 ",
+    "                  SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS                   ",
+    "                    SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS                     ",
+    "                      SSSSSSSSSSSSSSSSSSSSSSSSSSS                       ",
+    "                        SSSSSSSSSSSSSSSSSSSSSSS                         ",
+    "                          SSSSSSSSSSSSSSSSSSS                           ",
+    "                            SSSSSSSSSSSSSSS                             ",
+    "                              SSSSSSSSSSS                               ",
+    "                                SSSSSSS                                 ",
+    "                                  SSS                                   ",
+    "                                   S                                    "
+}
+
+for _, v in ipairs(vortex_heart_S) do
+    print(v)
+end
