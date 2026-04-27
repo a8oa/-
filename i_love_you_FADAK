@@ -1,36 +1,32 @@
-local heart_fadak_ultra = {
-    "              LOVE YOU LOVE YOU              LOVE YOU LOVE YOU              ",
-    "          LOVE YOU LOVE YOU LOVE YOU        LOVE YOU LOVE YOU LOVE YOU      ",
-    "        LOVE YOU LOVE YOU LOVE YOU LOVE  LOVE YOU LOVE YOU LOVE YOU LOVE    ",
-    "       LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE  ",
-    "      LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE   ",
-    "      LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE   ",
-    "      LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE   ",
-    "      LOVE YOU LOVE YOU LOVE                      LOVE YOU LOVE YOU LOVE    ",
-    "       LOVE YOU LOVE YOU LOVE    ┌──────────┐    LOVE YOU LOVE YOU LOVE     ",
-    "        LOVE YOU LOVE YOU LO     │ ❤️ FADAK ❤️ │     LOVE YOU LOVE YOU LO      ",
-    "         LOVE YOU LOVE YOU L     └──────────┘     LOVE YOU LOVE YOU L       ",
-    "          LOVE YOU LOVE YOU                        LOVE YOU LOVE YOU        ",
-    "           LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE       ",
-    "            LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU           ",
-    "              LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE             ",
-    "                LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU                ",
-    "                  LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE                  ",
-    "                    LOVE YOU LOVE YOU LOVE YOU LOVE YOU                     ",
-    "                      LOVE YOU LOVE YOU LOVE YOU LOVE                       ",
-    "                        LOVE YOU LOVE YOU LOVE YOU                          ",
-    "                          LOVE YOU LOVE YOU LOVE                            ",
-    "                            LOVE YOU LOVE YOU                               ",
-    "                              LOVE YOU LO                                   ",
-    "                                LOVE YOU                                    ",
-    "                                  LOVE                                      ",
-    "                                   L                                        "
+local heart_final_display = {
+    "                LOVE YOU LOVE YOU              LOVE YOU LOVE YOU                ",
+    "            LOVE YOU LOVE YOU LOVE YOU      LOVE YOU LOVE YOU LOVE YOU          ",
+    "          LOVE YOU LOVE YOU LOVE YOU LOVE  LOVE YOU LOVE YOU LOVE YOU LOVE        ",
+    "         LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE      ",
+    "        LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU     ",
+    "        LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU     ",
+    "        LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU     ",
+    "        LOVE YOU LOVE YOU LOVE YOU                LOVE YOU LOVE YOU LOVE YOU        ",
+    "         LOVE YOU LOVE YOU LOVE YOU              LOVE YOU LOVE YOU LOVE YOU         ",
+    "          LOVE YOU LOVE YOU LOVE YOU      ♡      LOVE YOU LOVE YOU LOVE YOU          ",
+    "           LOVE YOU LOVE YOU LOVE YOU          LOVE YOU LOVE YOU LOVE YOU           ",
+    "            LOVE YOU LOVE YOU LOVE YOU        LOVE YOU LOVE YOU LOVE YOU            ",
+    "              LOVE YOU LOVE YOU LOVE YOU    LOVE YOU LOVE YOU LOVE YOU              ",
+    "                LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU               ",
+    "                  LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE                 ",
+    "                    LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE YOU                    ",
+    "                      LOVE YOU LOVE YOU LOVE YOU LOVE YOU LOVE                      ",
+    "                        LOVE YOU LOVE YOU LOVE YOU LOVE YOU                         ",
+    "                          LOVE YOU LOVE YOU LOVE YOU LOVE                           ",
+    "                            LOVE YOU LOVE YOU LOVE YOU                              ",
+    "                              LOVE YOU LOVE YOU LO                                  ",
+    "                                LOVE YOU LOVE YOU                                   ",
+    "                                  LOVE YOU LO                                       ",
+    "                                    LOVE YOU                                        ",
+    "                                      LOVE                                          ",
+    "                                       L                                            "
 }
 
-print("\n" .. string.rep(" ", 15) .. "❤️ SPECIALLY FOR FADAK ❤️\n")
-
-for _, v in ipairs(heart_fadak_ultra) do
-    print(v)
+for _, line in ipairs(heart_final_display) do
+    print(line)
 end
-
-print("\n" .. string.rep(" ", 20) .. "I LOVE YOU VERY MUCH")
