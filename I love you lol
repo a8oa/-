@@ -1,0 +1,31 @@
+local giant_heart_F = {
+    "             FFFFFFFFFFFFF             FFFFFFFFFFFFF             ",
+    "         FFFFFFFFFFFFFFFFFFFFF     FFFFFFFFFFFFFFFFFFFFF         ",
+    "       FFFFFFFFFFFFFFFFFFFFFFFFF FFFFFFFFFFFFFFFFFFFFFFFFF       ",
+    "      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF      ",
+    "     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF     ",
+    "     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF     ",
+    "     FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF     ",
+    "     FFFFFFFFFFFF                               FFFFFFFFFFFF     ",
+    "      FFFFFFFFFFFF       [  I LOVE YOU  ]        FFFFFFFFFFFF      ",
+    "       FFFFFFFFFFFF            ` احبك              FFFFFFFFFFFF       ",
+    "        FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF        ",
+    "         FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF         ",
+    "           FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF           ",
+    "             FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF             ",
+    "               FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF               ",
+    "                 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF                 ",
+    "                   FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF                   ",
+    "                     FFFFFFFFFFFFFFFFFFFFFFFFFF                     ",
+    "                       FFFFFFFFFFFFFFFFFFFFFF                       ",
+    "                         FFFFFFFFFFFFFFFFFF                         ",
+    "                           FFFFFFFFFFFFFF                           ",
+    "                             FFFFFFFFFF                             ",
+    "                               FFFFFF                               ",
+    "                                 FF                                 ",
+    "                                 F                                  "
+}
+
+for _, line in ipairs(giant_heart_F) do
+    print(line)
+end
